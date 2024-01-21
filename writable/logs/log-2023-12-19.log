@@ -1,0 +1,149 @@
+ERROR - 2023-12-19 05:31:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from signup' at line 1 in C:\xampp\htdocs\login_ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login_ci4\system\Database\MySQLi\Connection.php(306): mysqli->query('select id,name,...', 0)
+#1 C:\xampp\htdocs\login_ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select id,name,...')
+#2 C:\xampp\htdocs\login_ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select id,name,...')
+#3 C:\xampp\htdocs\login_ci4\app\Models\registermodel.php(19): CodeIgniter\Database\BaseConnection->query('select id,name,...')
+#4 C:\xampp\htdocs\login_ci4\app\Controllers\Registercontroller.php(249): App\Models\registermodel->getData()
+#5 C:\xampp\htdocs\login_ci4\system\CodeIgniter.php(942): App\Controllers\Registercontroller->usersList()
+#6 C:\xampp\htdocs\login_ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+#7 C:\xampp\htdocs\login_ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\login_ci4\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-19 05:31:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from signup' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\registermodel.php(19): CodeIgniter\Database\BaseConnection->query('select id,name,email, from signup')
+ 2 APPPATH\Controllers\Registercontroller.php(249): App\Models\registermodel->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->usersList()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 07:09:14 --> Invalid file: "partials/users_table.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/users_table.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('partials/users_table', [], true)
+ 3 APPPATH\Views\index.php(170): view('partials/users_table', [...])
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 7 APPPATH\Controllers\Registercontroller.php(270): view('index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->usersList()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 09:30:48 --> Call to undefined method App\Models\registermodel::deleteValue
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Registercontroller.php(283): CodeIgniter\Model->__call('deleteValue', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->delete('35')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 09:32:17 --> Call to undefined method App\Models\registermodel::deleteValue
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Registercontroller.php(283): CodeIgniter\Model->__call('deleteValue', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->delete('35')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 09:33:26 --> Call to undefined method App\Models\registermodel::deleteValue
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Registercontroller.php(283): CodeIgniter\Model->__call('deleteValue', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->delete('35')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 09:33:33 --> Call to undefined method App\Models\registermodel::deleteValue
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Registercontroller.php(283): CodeIgniter\Model->__call('deleteValue', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->delete('35')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:04:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(293): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:06:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(293): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:06:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(293): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:08:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(293): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:09:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(293): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:31:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(300): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 10:31:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(300): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 11:49:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\update.php on line 67.
+ 1 APPPATH\Views\update.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\Registercontroller.php(306): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->edit('styles.css')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

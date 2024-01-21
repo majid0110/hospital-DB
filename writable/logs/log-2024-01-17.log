@@ -1,0 +1,11 @@
+CRITICAL - 2024-01-17 06:36:40 --> Undefined variable $session
+in APPPATH\Views\dashboard.php on line 187.
+ 1 APPPATH\Views\dashboard.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\dashboard.php', 187)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(20): view('dashboard.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

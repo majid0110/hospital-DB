@@ -1,0 +1,313 @@
+CRITICAL - 2024-01-19 05:08:45 --> Undefined variable $Gender
+in APPPATH\Controllers\DoctorController.php on line 73.
+ 1 APPPATH\Controllers\DoctorController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Gender', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\DoctorController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 05:29:59 --> Undefined array key "gender"
+in APPPATH\Controllers\DoctorController.php on line 73.
+ 1 APPPATH\Controllers\DoctorController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gender"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\DoctorController.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 05:55:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 05:57:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:14:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:16:56 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:19:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:20:08 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 06:22:32 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:40:46 --> Undefined variable $doctorDetails
+in APPPATH\Views\doctors_table.php on line 241.
+ 1 APPPATH\Views\doctors_table.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorDetails', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 241)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(24): view('doctors_table.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:44:48 --> Undefined array key "DoctorID"
+in APPPATH\Views\doctors_table.php on line 244.
+ 1 APPPATH\Views\doctors_table.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DoctorID"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 244)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:46:13 --> Undefined array key "DoctorID"
+in APPPATH\Views\doctors_table.php on line 244.
+ 1 APPPATH\Views\doctors_table.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DoctorID"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 244)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:46:36 --> Undefined array key "DoctorID"
+in APPPATH\Views\doctors_table.php on line 244.
+ 1 APPPATH\Views\doctors_table.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DoctorID"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 244)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:46:52 --> Undefined array key "FirstName"
+in APPPATH\Views\doctors_table.php on line 244.
+ 1 APPPATH\Views\doctors_table.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "FirstName"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 244)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 07:47:35 --> Undefined array key "DoctorID"
+in APPPATH\Views\doctors_table.php on line 244.
+ 1 APPPATH\Views\doctors_table.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DoctorID"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 244)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 08:03:35 --> Undefined variable $doctorDetails
+in APPPATH\Views\doctors_table.php on line 238.
+ 1 APPPATH\Views\doctors_table.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorDetails', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 08:04:25 --> Undefined variable $doctorDetails
+in APPPATH\Views\doctors_table.php on line 238.
+ 1 APPPATH\Views\doctors_table.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorDetails', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 08:04:28 --> Undefined variable $doctorDetails
+in APPPATH\Views\doctors_table.php on line 238.
+ 1 APPPATH\Views\doctors_table.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorDetails', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 08:04:31 --> Undefined variable $doctorDetails
+in APPPATH\Views\doctors_table.php on line 238.
+ 1 APPPATH\Views\doctors_table.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorDetails', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_table.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_table.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(26): view('doctors_table.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_table()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 09:37:04 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 09:37:39 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 09:38:22 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:10:53 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:15:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:15:43 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:16:42 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:18:23 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:22:04 --> Call to a member function getName() on null
+in APPPATH\Controllers\DoctorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->saveDoctorProfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:42:28 --> Undefined variable $specializations
+in APPPATH\Views\doctors_fee.php on line 229.
+ 1 APPPATH\Views\doctors_fee.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $specializations', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_fee.php', 229)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_fee.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_fee.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(50): view('doctors_fee.php')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:57:36 --> Undefined property: App\Controllers\DoctorController::$Model
+in APPPATH\Controllers\DoctorController.php on line 48.
+ 1 APPPATH\Controllers\DoctorController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DoctorController::$Model', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\DoctorController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:58:37 --> Undefined constant "App\Controllers\Model"
+in APPPATH\Controllers\DoctorController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 10:59:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\DoctorModel.php on line 51.
+ 1 APPPATH\Controllers\DoctorController.php(48): App\Models\DoctorModel->getDoctorNames()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:01:49 --> Undefined property: App\Controllers\DoctorController::$load
+in APPPATH\Controllers\DoctorController.php on line 51.
+ 1 APPPATH\Controllers\DoctorController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DoctorController::$load', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\DoctorController.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:02:46 --> Invalid file: "doctor_fee.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('doctor_fee.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctor_fee.php', [], true)
+ 3 APPPATH\Controllers\DoctorController.php(50): view('doctor_fee.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:31:21 --> Undefined array key "DoctorName"
+in APPPATH\Views\doctors_fee.php on line 220.
+ 1 APPPATH\Views\doctors_fee.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DoctorName"', 'C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_fee.php', 220)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\login_ci4\\app\\Views\\doctors_fee.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_fee.php', [], true)
+ 5 APPPATH\Controllers\DoctorController.php(50): view('doctors_fee.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:36:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\doctors_fee.php on line 236.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('doctors_fee.php', [], true)
+ 4 APPPATH\Controllers\DoctorController.php(50): view('doctors_fee.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->doctors_fee()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:50:53 --> Undefined variable $doctorFeeModel
+in APPPATH\Controllers\DoctorController.php on line 132.
+ 1 APPPATH\Controllers\DoctorController.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $doctorFeeModel', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\DoctorController.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->Savedoctorsfee()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:51:22 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\DoctorController.php(132): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->Savedoctorsfee()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-19 11:54:12 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\DoctorController.php(134): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\DoctorController->Savedoctorsfee()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DoctorController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

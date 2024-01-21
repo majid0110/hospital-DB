@@ -1,0 +1,7 @@
+CRITICAL - 2023-12-15 05:48:40 --> Undefined variable $password
+in APPPATH\Controllers\Registercontroller.php on line 46.
+ 1 APPPATH\Controllers\Registercontroller.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp\\htdocs\\login_ci4\\app\\Controllers\\Registercontroller.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Registercontroller->saveuser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registercontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

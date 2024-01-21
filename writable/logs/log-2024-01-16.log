@@ -1,0 +1,20 @@
+CRITICAL - 2024-01-16 11:13:59 --> "App\Models\LoginModel" model class does not specify a Primary Key.
+in SYSTEMPATH\Model.php on line 625.
+ 1 SYSTEMPATH\Model.php(625): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\LoginModel.php(14): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH\Controllers\LoginController.php(30): App\Models\LoginModel->getUserByEmail('hamad@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->loginSave()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-16 11:16:07 --> "App\Models\LoginModel" model class does not specify a Primary Key.
+in SYSTEMPATH\Model.php on line 625.
+ 1 SYSTEMPATH\Model.php(625): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\LoginModel.php(14): CodeIgniter\Model->__call('where', [...])
+ 4 APPPATH\Controllers\LoginController.php(31): App\Models\LoginModel->getUserByEmail('hamad@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->loginSave()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
